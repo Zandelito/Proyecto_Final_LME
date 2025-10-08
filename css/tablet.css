@@ -1,0 +1,9 @@
+@media all and (min-width: 481px) and (max-width: 768px) {
+    section.contenido {
+        background-color: rgba(42, 67, 98, 0.678);
+        margin-top: 15px;
+    }
+    .tarjeta {
+        background: #60b5c0bb !important;
+    }
+}

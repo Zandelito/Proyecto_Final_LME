@@ -1,0 +1,279 @@
+/* ------------------------------ PERSONALIZACIÓN GLOBAL ------------------------------ */
+* {
+    margin: 0 auto;
+    padding: 0;
+    color: #e8e8e8;
+}
+
+body {
+    background-image: url(../img/fondito.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #204462;
+}
+
+main,
+header,
+section,
+footer {
+    /* Nuestro selector múltiple para centrar las cosas, con un margen de 0 arriba y abajo, y automático hacia los lados 
+        para que se ajuste a las pantallas junto con el text align en el centro para que al alejarlo o acercarlo siempre esté centrado */
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    max-width: 920px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.pfix {
+    text-align: justify;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 20px;
+}
+
+.fiximg {
+    width: 50%;
+}
+
+.contenido {
+    background-color: rgba(57, 89, 128, 0.5);
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px;
+    width: 90%;
+    max-width: 920px;
+    margin-top: 85px;
+    display: block;
+}
+
+.resumen {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 920px;
+    margin-top: 20px;
+    height: auto;
+}
+
+/* ------------------------------ TARJETA DE RESUMEN ------------------------------ */
+
+.tarjeta {
+    background: rgba(57, 89, 128, 0.944);
+    border-radius: 8px;
+    padding: 1.2em;
+    margin: 1em 0;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+/* ------------------------------ FORMS - CONTACTO ------------------------------ */
+
+form {
+    width: 90%;
+    max-width: 920px;
+    padding-left: 3%;
+}
+
+.formh2 {
+    padding-bottom: 15px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 1em;
+    color: black;
+}
+
+option {
+    color: black;
+}
+
+form button {
+    background: rgba(57, 89, 128, 0.5);
+    color: black;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    border-color: white;
+}
+
+form button:hover {
+    background: rgb(45, 62, 94);
+    color: white;
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+form button {
+    transition: all 0.5s;
+}
+
+/* Redes sociales */
+.imgsocial {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.redes {
+    text-align: center;
+}
+
+.contacto img:hover {
+    transform: scale(1.2);
+}
+
+
+/* ------------------------------ CREADORES ------------------------------ */
+.persona {
+    background-color: rgba(229, 229, 229, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    height: 100%;
+    border-top: 6px solid transparent;
+    max-width: 230px;
+    min-width: 130px;
+}
+
+.persona h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.persona p {
+    font-size: 14px;
+}
+
+.persona.navy {
+    border-color: rgb(162, 201, 249);
+}
+
+.imgcreadores {
+    width: 35%;
+    height: 150px;
+    min-width: 150px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* ------------------------------ CARRUSEL ------------------------------ */
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #333;
+}
+
+.img-borde-azul {
+    border: 5px solid blue;
+    border-radius: 15px;
+
+}
+
+
+/* ------------------------------ CREADORES ------------------------------ */
+
+
+.contenido h2 {
+    font-weight: bold;
+    color: #002b5c;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #002b5c;
+    color: white;
+    font-size: 1.1rem;
+}
+
+/* --- Celdas --- */
+.table td, .table th {
+    vertical-align: middle;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    border: 5px solid #002b5c;
+}
+
+.table th{
+    background-color:#002b5c;
+}
+
+.table td{
+    background-color: #355269;
+}
+
+/* --- Imágenes --- */
+.table img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+
+.table img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+

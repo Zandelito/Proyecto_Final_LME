@@ -1,0 +1,13 @@
+@media all and (min-width: 769px) {
+    #mainheader {
+        position: fixed;
+    }
+
+    section.contenido {
+        margin-top: 15px;
+    }
+
+    body {
+        padding-top: 75px;
+    }
+}

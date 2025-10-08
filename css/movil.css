@@ -1,0 +1,13 @@
+@media all and (max-width: 480px) {
+    .contenido {
+        background-color: transparent;
+        background: none;
+        box-shadow: none;
+        max-width: 240px;
+        padding: 0;
+    }
+
+    section.contenido {
+        margin-top: 20px;
+    }
+}
