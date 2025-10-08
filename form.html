@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/multinivel.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/linea.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>La Guerra Civil de El Salvador</title>
 </head>
 
@@ -68,6 +69,19 @@
                             <option value="3">Colaboración</option>
                         </select>
                         <textarea class="form-control mb-3" rows="4" placeholder="Mensaje" required></textarea>
+                        <input type="datetime-local" class="form-control" required>
+                        <div class="radio-genero mb-4">
+                            <label class="genero">Género:</label>
+                            <div class="opciones-genero">
+                                <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+                                <label><input type="radio" name="genero" value="femenino" required> Femenino</label>
+                            </div>
+                        </div>
+                        <div class="check-terminos">
+                            <label class="terminos">Acepto términos, condiciones y política de privacidad.</label>
+                            <input type="checkbox" class="form-check-input" required>
+                        </div>
+                        <br>
                         <button type="submit" class="mb-5">Enviar Mensaje</button>
                     </form>
                 </div>

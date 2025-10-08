@@ -1,8 +1,8 @@
 @media all and (max-width: 480px) {
     .contenido {
-        background-color: transparent;
-        background: none;
-        box-shadow: none;
+        background-color: transparent !important;
+        background: none !important;
+        box-shadow: none !important;
         max-width: 240px;
         padding: 0;
     }

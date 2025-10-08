@@ -61,6 +61,32 @@ section {
     width: 50%;
 }
 
+h2 {
+    color: #ffffff !important;
+}
+
+a.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #002b5c00;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+div > a.link {
+    display: inline-block;
+    transition: all 1.1s;
+}
+
+a.link:hover {
+    background-color: #002b5c;
+    color: white;
+    transition: all 1.1s;
+    transform: scale(1.2);
+}
+
 .contenido {
     background-color: rgba(57, 89, 128, 0.5);
     border-radius: 10px;
@@ -125,7 +151,7 @@ option {
 form button {
     background: rgba(57, 89, 128, 0.5);
     color: black;
-    padding: 12px 18px;
+    padding: 12px 15px;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
@@ -141,6 +167,68 @@ form button:hover {
 
 form button {
     transition: all 0.5s;
+}
+
+.check-terminos {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form .terminos {
+    display: block;
+    font-size: 0.8em;
+    color: white;
+    margin-bottom: 5px;
+}
+
+form .form-check-input {
+    width: 15px;
+    height: 15px;
+    accent-color: #6c69b3;
+    cursor: pointer;
+}
+
+.radio-genero {
+    text-align: left;
+}
+
+.radio-genero .genero {
+    font-weight: bold;
+}
+
+.opciones-genero {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-bottom: 0;
+    cursor: pointer;
+    accent-color: #6c69b3;
+    padding-right: 5px;
+}
+
+div.radio-genero {
+    margin-top: 0;
+}
+
+label {
+    margin-right: 15px;
+    font-size: 1em;
+}
+
+label.genero {
+    padding-top: 25px;
+}
+
+.opciones-genero label {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    /* asegura que el texto se vea sobre el fondo */
 }
 
 /* Redes sociales */
