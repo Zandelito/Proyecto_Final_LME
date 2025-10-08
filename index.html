@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/movil.css">
+  <link rel="stylesheet" href="css/tablet.css">
+  <link rel="stylesheet" href="css/pc.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/multinivel.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/linea.css">
+  <title>La Guerra Civil de El Salvador</title>
+</head>
+
+<body>
+  <header id="mainheader">
+    <nav>
+      <div id="logo">
+        <a href="index.html"><img src="img/escudo_de_El_Salvador1.png" alt="Logo" width="60px"></a>
+      </div>
+
+      <label for="drop" class="toggle icono">
+        &#9776;
+        <!-- ^ Este añadido es para mostrar el icono hamburguesa con el diseño responsive -->
+      </label>
+      <input type="checkbox" id="drop" />
+      <!-- Y básicamente, nuestro menú está basado en el diseño de la guía 12 -->
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <label for="drop-1" class="toggle">Historia +</label>
+          <input type="checkbox" id="drop-1" />
+          <ul>
+            <li><a href="lineadetiempo.html" class="font">Línea del Tiempo</a></li>
+            <li>
+              <label for="drop-2" class="toggle">Antecedentes +</label>
+              <input type="checkbox" id="drop-2" />
+              <ul>
+                <li><a href="sociales.html">Sociales</a></li>
+                <li><a href="economicos.html">Económicos</a></li>
+                <li><a href="politicos.html">Políticos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="form.html">Contacto</a></li>
+        <li><a href="creadores.html">Creadores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Resumen -->
+      <section class="contenido">
+          <h2 class="mb-4">¿Qué fue la Guerra Civil?</h2>
+          <p class="mb-5 pfix">La Guerra Civil Salvadoreña fue un conflicto armado interno que duró 12 años enfrentando
+            al
+            gobierno y a la guerrilla del Frente Farabundo Martí para la Liberación Nacional (FMLN).
+          </p>
+          <img width="700" height="400" src="img/El-Salvador-BN-860434-1.jpg" alt="Soldado pic"
+            style="max-width:100%;height:auto;" class="mb-5">
+          <h3>Panorama General del Conflicto</h3>
+          <div>
+            <div class="tarjeta">
+              Resolución<br>
+              <span>Acuerdos de Paz de Chapultepec<br>16 de enero de 1992</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="mb-4 pfix">
+            Se desarrolló principalmente entre 1981 y 1992, aunque tuvo raíces algunos años previos, en los que se
+            alimentaba
+            de profundas desigualdades sociales. Durante once años de enfrentamientos el conflicto dejó más de 80,000
+            muertos
+            y cerca de dos millones de desplazados en una nación que en aquel entonces contaba con al rededor de casi 5
+            millones de habitantes.
+          </p>
+          <h5>Video característico del país:</h5>
+          <div style="text-align: center;">
+            <video src="video/Las fuerzas especiales.mp4" controls></video>
+          </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="text-center">
+      <div>
+        <section class="contenido">
+          &copy;Guerra Civil El Salvador
+        </section>
+      </div>
+    </section>
+  </footer>
+
+</body>
+
+</html>

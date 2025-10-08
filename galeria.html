@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/multinivel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/linea.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>La Guerra Civil de El Salvador</title>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="img/escudo_de_El_Salvador1.png" alt="Logo" width="60px"></a>
+            </div>
+
+            <label for="drop" class="toggle icono">
+                &#9776;
+                <!-- ^ Este añadido es para mostrar el icono hamburguesa con el diseño responsive -->
+            </label>
+            <input type="checkbox" id="drop" />
+            <!-- Y básicamente, nuestro menú está basado en el diseño de la guía 12 -->
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <label for="drop-1" class="toggle">Historia +</label>
+                    <input type="checkbox" id="drop-1" />
+                    <ul>
+                        <li><a href="lineadetiempo.html" class="font">Línea del Tiempo</a></li>
+                        <li>
+                            <label for="drop-2" class="toggle">Antecedentes +</label>
+                            <input type="checkbox" id="drop-2" />
+                            <ul>
+                                <li><a href="sociales.html">Sociales</a></li>
+                                <li><a href="economicos.html">Económicos</a></li>
+                                <li><a href="politicos.html">Políticos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="form.html">Contacto</a></li>
+                <li><a href="creadores.html">Creadores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Carrusel de 17 Imágenes</h2>
+
+        <div id="carruselImagenes" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <!-- Se crean 17 botones, uno por imagen -->
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="8"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="9"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="10"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="11"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="12"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="13"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="14"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="15"></button>
+                <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="16"></button>
+            </div>
+
+            <!-- Imágenes -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgaleria/guerraaa.webp" class="d-block w-100 img-borde-azul" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/afichesdelaguerrilla.png" class="d-block w-100 img-borde-azul" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/cineenlaguerra.png" class="d-block w-100 img-borde-azul" alt="Imagen 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/cocinadelaguerrilla.png" class="d-block w-100 img-borde-azul" alt="Imagen 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/conflicto armado.png" class="d-block w-100 img-borde-azul" alt="Imagen 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/radio.webp" class="d-block w-100 img-borde-azul" alt="Imagen 6">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/chafik.jpg" class="d-block w-100 img-borde-azul" alt="Imagen 7">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/El-Salvador-BN-860434-1.jpg" class="d-block w-100 img-borde-azul"
+                        alt="Imagen 8">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/golpedeestado.jpg" class="d-block w-100 img-borde-azul" alt="Imagen 9">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/los80.jpg" class="d-block w-100 img-borde-azul" alt="Imagen 10">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/manifestaciones.png" class="d-block w-100  img-borde-azul" alt="Imagen 11">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/mujerescombatientes.png" class="d-block w-100 img-borde-azul" alt="Imagen 12">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/niñexenmediodelaguerra.png" class="d-block w-100 img-borde-azul"
+                        alt="Imagen 13">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/Refugiados.jpeg" class="d-block w-100 img-borde-azul" alt="Imagen 14">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/armas.webp" class="d-block w-100 img-borde-azul" alt="Imagen 15">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/_93558840_giuseppedezza-3.jpg" class="d-block w-100 img-borde-azul alt=" Imagen
+                        16>
+                </div>
+                <div class="carousel-item">
+                    <img src="imgaleria/eeeee.webp" class="d-block w-100 img-borde-azul" alt="Imagen 17">
+                </div>
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselImagenes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselImagenes" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
